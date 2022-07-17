@@ -104,3 +104,6 @@ export * from "./src/NodeParser/PrefixUnaryExpressionNodeParser";
 export * from "./src/SchemaGenerator";
 
 export * from "./factory";
+
+import ts from "typescript";
+export { ts };
