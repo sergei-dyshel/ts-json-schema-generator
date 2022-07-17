@@ -18,6 +18,9 @@ export class BasicAnnotationsReader implements AnnotationsReader {
         "comment",
         "contentMediaType",
         "contentEncoding",
+
+        // used by vscode configuration
+        "scope",
     ]);
     private static jsonTags = new Set<string>([
         "minimum",
